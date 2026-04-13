@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Countdown - 3/26/26 to 9/21/26</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    
+    <div class="container">
+        <div class="countdown-card">
+            <h1>COUNTDOWN</h1>
+            <p class="date-range">March 26, 2026 → September 21, 2026</p>
+            
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number" id="daysPassed">0</div>
+                    <div class="stat-label">Days Passed</div>
+                </div>
+                
+                <div class="stat-box">
+                    <div class="stat-number" id="daysRemaining">0</div>
+                    <div class="stat-label">Days Remaining</div>
+                </div>
+                
+                <div class="stat-box">
+                    <div class="stat-number" id="percentComplete">0%</div>
+                    <div class="stat-label">Progress</div>
+                </div>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            
+            <div class="current-date">
+                Today: <span id="currentDate">--/--/--</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
