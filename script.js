@@ -1,6 +1,6 @@
 // Define the key dates
-const START_DATE = new Date(2026, 3, 26); // March 26, 2026
-const END_DATE = new Date(2026, 9, 21);   // September 21, 2026
+const START_DATE = new Date(2026, 2, 26); // March 26, 2026
+const END_DATE = new Date(2026, 8, 21);   // September 21, 2026
 
 function calculateCountdown() {
     const today = new Date();
